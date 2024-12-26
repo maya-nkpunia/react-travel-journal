@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+}
+
+header{
+    background: rgb(0, 102, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80px;
+}
+
+header > img {
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    border-radius: 80px;
+}
+
+header > h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: Inter;
+}
+
+article.journal-entry{
+    display: flex;
+}
+
+.main-image{
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.marker-image{
+    height: 30px;
+}
