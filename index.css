@@ -25,6 +25,10 @@ header > h1 {
 }
 
 article.journal-entry{
+    display: block;
+}
+
+.main-container{
     display: flex;
 }
 
@@ -32,8 +36,36 @@ article.journal-entry{
     width: 250px;
     height: 280px;
     border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 
 .marker-image{
-    height: 30px;
+    height: 22px;
+}
+
+.info-container{
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.info-container span.country{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-right: 2px;
+}
+
+.info-container a {
+    color: #2B283A;
+    font-size: 1.2rem;
+    margin-left: 8px;
+}
+
+.info-container a:visited{
+    color: #918E9B;
+}
+
+.info-conatiner h2.entry-title{
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
