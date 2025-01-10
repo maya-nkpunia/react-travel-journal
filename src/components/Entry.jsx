@@ -3,7 +3,7 @@ export default function Entry(props) {
         <article className="journal-entry">
             <div className="main-container">
             <div className="main-image-container">
-                <img className="main-image" src={props.src} alt={props.alt} />
+                <img className="main-image" src={props.img.src} alt={props.img.alt} />
             </div>
             <div className="info-container">
                 <img className="marker-image" src="src\images\marker_map_icon.png" alt="map marker icon" />
